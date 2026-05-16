@@ -193,11 +193,12 @@ img{
 
     background:
         #fff
-        url("src/img/mockup.png")
+        url("src/img/homepage-mockup.png")
         center top
         no-repeat;
 
     border-radius:8px;
+    background-size: contain;
 
     overflow:hidden;
 
