@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nitrosquared</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+	<div id="warning-popup">
+		<div id="warning-box">
+			<div class="warningtape" style="top: -17px;"></div>
+			<div style="padding: 10px;"></div>
+			<h2>Please Note</h2>
+			<p>This website is an unfinished and most pages either dont exist or are broken.</p>
+			<a href="javascript:void(0);" onclick="closeWarningPopup()">Continue</a>
+			<div style="padding: 10px;"></div>
+			<div class="warningtape"></div>
+		</div>
+	</div>
+
+	<script>
+	function closeWarningPopup(){
+		const popup = document.getElementById("warning-popup");
+		popup.style.opacity = "0";
+		setTimeout(function(){
+			popup.style.display = "none";
+		}, 250);
+	}
+	</script>
+
+<nav id="globalheader" class="home">
+
+    <ul id="globalnav">
+
+        <li id="gn-home">
+            <a href="index.html">Home</a>
+        </li>
+
+        <li id="gn-store">
+            <a href="#">Wikibridges</a>
+        </li>
+
+        <li id="gn-iphone">
+            <a href="Aboutme.html">About Me</a>
+        </li>
+
+        <li id="gn-ipad">
+            <a href="#">Contact</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<div id="main">
+
+	<a href="https://wiki.nitrosworld.org/wiki/" target="_blank">
+		<section class="hero"></section>
+	</a>
+
+    <aside class="promos">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="src/img/promo-01.png" alt="Wikibridges">
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images-sub/home/images/promo_ipodtouch_spot.png" alt="Promo">
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images-sub/home/images/promo_icloud.png" alt="Promo">
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="images-sub/home/images/promo_ipad_engraving.png" alt="Promo">
+                </a>
+            </li>
+        </ul>
+    </aside>
+</div>
+
+<footer id="homefooter">
+        Copyright © 2025 Nitrosquared. All rights reserved.
+</footer>
+
+</body>
+</html>
